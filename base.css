@@ -391,9 +391,26 @@ html {
         .ml-half	{ margin-left: calc( var(--base-space) * .5 ); }
 
     /* Border */
-    .border         { border: 1px solid var(--gray-dark); }
-    .border-mid     { border: 1px solid var(--gray-mid); }
-    .border-light   { border: 1px solid var(--gray-light); }
+    .border             { border: 1px solid var(--gray-dark); }
+    .border-mid         { border: 1px solid var(--gray-mid); }
+    .border-light       { border: 1px solid var(--gray-light); }
+    .border-dotted      { border-style: dotted; }
+    .border-dashed      { border-style: dashed; }
+    .border-double      { border-style: double; }
+    .border-w2          { border-width: 2px; }
+    .border-w3          { border-width: 3px; }
+    .border-w4          { border-width: 4px; }
+    .border-w5          { border-width: 5px; }
+    .border-w6          { border-width: 6px; }
+    .border-w7          { border-width: 7px; }
+    .border-w8          { border-width: 8px; }
+    .border-w9          { border-width: 9px; }
+    .border-w10         { border-width: 10px; }
+    .border-primary     { border-color: var(--primary); }
+    .border-secondary   { border-color: var(--secondary); }
+    .border-tertiary    { border-color: var(--tertiary); }
+    
+
 
     /* Safe Content Width*/
     .safe-width { width: var(--safe-width); }
